@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/berceanu/lwfa_scaling/tree/gh-pages) branch hosts the contents of this directory at https://berceanu.github.io/lwfa_scaling/.
-The permalink for this webpage version is https://berceanu.github.io/lwfa_scaling/v/1a1c2dc5c88231668342cb7c13cd0171c6324d92/.
+The permalink for this webpage version is https://berceanu.github.io/lwfa_scaling/v/1b8fc7c7eada3b8a369c6f0d9c92c4e2ae9965a1/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://berceanu.github.io/lwfa_scaling/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`1a1c2dc5c88231668342cb7c13cd0171c6324d92`](https://github.com/berceanu/lwfa_scaling/commit/1a1c2dc5c88231668342cb7c13cd0171c6324d92).
+[`1b8fc7c7eada3b8a369c6f0d9c92c4e2ae9965a1`](https://github.com/berceanu/lwfa_scaling/commit/1b8fc7c7eada3b8a369c6f0d9c92c4e2ae9965a1).
