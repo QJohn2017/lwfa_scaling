@@ -22,7 +22,7 @@
 <header id="title-block-header">
 <h1 class="title">Applycations of laser-wakefield scaling laws</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://berceanu.github.io/lwfa_scaling/v/22378bd86a226da604776f96cd57a914c93aab54/">permalink</a>) was automatically generated from <a href="https://github.com/berceanu/lwfa_scaling/tree/22378bd86a226da604776f96cd57a914c93aab54">berceanu/lwfa_scaling@22378bd</a> on July 5, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://berceanu.github.io/lwfa_scaling/v/1a1c2dc5c88231668342cb7c13cd0171c6324d92/">permalink</a>) was automatically generated from <a href="https://github.com/berceanu/lwfa_scaling/tree/1a1c2dc5c88231668342cb7c13cd0171c6324d92">berceanu/lwfa_scaling@1a1c2dc</a> on July 5, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Andrei Berceanu</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/0000-0003-4438-4440">0000-0003-4438-4440</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/berceanu">berceanu</a><br> <small> Extreme Light Infrastructure - Nuclear Physics </small></li>
@@ -31,7 +31,7 @@
 <p>We apply analytical scaling laws to the parameters of the CETAL laser system, in order to estimate the maximum obtainable electron energy and total charge in a laser-wakefield acceleration scenario. We also roughly predict the expected betatron radiation spectrum, emitted by the accelerated electrons. Finally, we apply the same analysis to the case of the envisioned GBS parameters.</p>
 <p>﻿## 1. CPLS parameters</p>
 <p>The Ti:Sapph CETAL-PW Laser System (CPLS) has a wavelength <span class="math inline">\(\lambda_L = 800\)</span> nanometers. The focal length of its off-axis parabolic mirror (OAP) is 3.2 meters, while the beam size is 200 millimeters. We can take the pulse duration to be <span class="math inline">\(\tau_L = 40\)</span> fs at FWHM in intensity. ## 2. Electron acceleration estimate</p>
-<p>For optimal acceleration, we impose the condition that the dephasing length should be equal to the pump depletion length <span class="math inline">\(L_{\text{dephasing}} = L_{\text{depletion}}\)</span>.</p>
+<p>For optimal acceleration, we impose the condition that the dephasing length should be equal to the pump depletion length <span class="math inline">\(L_{\text{dephasing}} = L_{\text{depletion}}\)</span> <span class="citation" data-cites="pHOLg7Nh">[<a href="#ref-pHOLg7Nh" role="doc-biblioref">1</a>]</span>.</p>
 <p><span class="math display">\[L_{\text{dephasing}} = \frac{4}{3} \left(\frac{\omega_L}{\omega_p}\right)^2 \frac{\sqrt{a_0}}{k_p} = L_{\text{depletion}} = \left(\frac{\omega_L}{\omega_p}\right)^2 c \tau_L\]</span></p>
 <p>In practical units, we have <span class="math inline">\(\lambda_p [\mu \text{m}] = 3.34 \times 10^{10} (n_p [\text{cm}^{-3}])^{-1/2}\)</span>, therefore <span class="math inline">\(k_p [\mu \text{m}^{-1}]= 2\pi / \lambda_p [\mu \text{m}] = 1.88 \times 10^{-10} (n_p [\text{cm}^{-3}])^{1/2}\)</span> and <span class="math inline">\(\omega_p [\text{fs}^{-1}] = 5.64 \times 10^{-11} (n_p [\text{cm}^{-3}])^{1/2}\)</span>. This allows us to obtain the ratio <span class="math inline">\(a_0/n_p\)</span> from above.</p>
 <p><span class="math display">\[\frac{a_0}{n_p [\text{cm}^{-3}]} = 1.79 \times 10^{-21} (\tau_L [\text{fs}])^2\]</span></p>
@@ -78,7 +78,7 @@
 <h3 id="external-guiding">External guiding</h3>
 <p>3J, <span class="math inline">\(a_0 = 2\)</span>, <span class="math inline">\(n_p = 5.1 \times 10^{17}\)</span> cm<span class="math inline">\({}^{-3}\)</span>, <span class="math inline">\(w_0 = 21\, \mu\text{m}\)</span>, <span class="math inline">\(\tau_L = 47\, \text{fs}\)</span> - needs external guiding (capilaries) - needs external injection - can reach <span class="math inline">\(\Delta \varepsilon = 2.4\)</span> GeV after 52 mm of plasma</p>
 <h2 id="betatron-emission">3. Betatron emission</h2>
-<p>After matching the laser spot size, and pulse duration to the plasma density, we can look at betatron emission <span class="citation" data-cites="2hiGds1a">[<a href="#ref-2hiGds1a" role="doc-biblioref">1</a>]</span>. The betatron oscillation radius <span class="math inline">\(r_{\beta} = 3\, \mu\)</span>m for a blowout radius <span class="math inline">\(R = 21 \, \mu\)</span>m. Since the betatron oscillations are limited by the bubble size, it is reasonable to assume a linear dependence on <span class="math inline">\(R\)</span> and therefore take <span class="math inline">\(r_{\beta} = 2.6 \, \mu\)</span>m in our case.</p>
+<p>After matching the laser spot size, and pulse duration to the plasma density, we can look at betatron emission <span class="citation" data-cites="2hiGds1a">[<a href="#ref-2hiGds1a" role="doc-biblioref">2</a>]</span>. The betatron oscillation radius <span class="math inline">\(r_{\beta} = 3\, \mu\)</span>m for a blowout radius <span class="math inline">\(R = 21 \, \mu\)</span>m. Since the betatron oscillations are limited by the bubble size, it is reasonable to assume a linear dependence on <span class="math inline">\(R\)</span> and therefore take <span class="math inline">\(r_{\beta} = 2.6 \, \mu\)</span>m in our case.</p>
 <p>We now need to work out the five relevant parameters for the wiggler: the relativistic electron factor <span class="math inline">\(\gamma\)</span>, the number of electrons <span class="math inline">\(N_e\)</span>, the strength parameter <span class="math inline">\(K\)</span>, the period of the wiggler <span class="math inline">\(\lambda_u\)</span> and the number of (betatron) periods <span class="math inline">\(N\)</span>. We already know the first two parameters. Once we have the parameters, we can calculate the critical radiation energy <span class="math inline">\(\hbar \omega_c\)</span>, the opening angle of the radiation <span class="math inline">\(\theta_r\)</span> and the number of emitted photons per electron and per betatron period, <span class="math inline">\(N_{\gamma}\)</span>. We can then get the total number of emitted photons per laser shot, <span class="math inline">\(N_{\gamma} \times N_e \times N\)</span>.</p>
 <p><span class="math display">\[\theta_r [\text{mrad}] = 10^3 \times \frac{K}{\gamma} \]</span> <span class="math display">\[N_{\gamma} = 3.31 \times 10^{-2} K\]</span> <span class="math display">\[\hbar \omega_c [\text{keV}] = 1.86 \times 10^{-3} \frac{K \gamma^2}{\lambda_u [\mu\text{m}]}\]</span></p>
 <h3 id="wiggler-parameters">Wiggler parameters</h3>
@@ -120,8 +120,14 @@
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
+<div id="ref-pHOLg7Nh">
+<p>1. <strong>Generating multi-GeV electron bunches using single stage laser wakefield acceleration in a 3D nonlinear regime</strong><br />
+W. Lu, M. Tzoufras, C. Joshi, F. S. Tsung, W. B. Mori, J. Vieira, R. A. Fonseca, L. O. Silva<br />
+<em>Physical Review Special Topics - Accelerators and Beams</em> (2007-06-05) <a href="https://doi.org/cpszsb">https://doi.org/cpszsb</a><br />
+DOI: <a href="https://doi.org/10.1103/physrevstab.10.061301">10.1103/physrevstab.10.061301</a></p>
+</div>
 <div id="ref-2hiGds1a">
-<p>1. <strong>Femtosecond x rays from laser-plasma accelerators</strong><br />
+<p>2. <strong>Femtosecond x rays from laser-plasma accelerators</strong><br />
 S. Corde, K. Ta Phuoc, G. Lambert, R. Fitour, V. Malka, A. Rousse, A. Beck, E. Lefebvre<br />
 <em>Reviews of Modern Physics</em> (2013-01-09) <a href="https://doi.org/f4j98s">https://doi.org/f4j98s</a><br />
 DOI: <a href="https://doi.org/10.1103/revmodphys.85.1">10.1103/revmodphys.85.1</a></p>
