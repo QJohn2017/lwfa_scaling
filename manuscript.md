@@ -1,14 +1,13 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- Andrei Berceanu
 date-meta: '2019-07-05'
 keywords:
-- markdown
-- publishing
-- manubot
+- lwfa
+- laser
+- plasma
 lang: en-US
-title: Manuscript Title
+title: Applycations of laser-wakefield scaling laws
 ...
 
 
@@ -18,9 +17,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/82438d010ec3aa0e2de56959f6c8fc0f512943db/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/403b96ae13e89a6971db94b6d4e5cdc05db70747/))
 was automatically generated
-from [berceanu/lwfa_scaling@82438d0](https://github.com/berceanu/lwfa_scaling/tree/82438d010ec3aa0e2de56959f6c8fc0f512943db)
+from [berceanu/lwfa_scaling@403b96a](https://github.com/berceanu/lwfa_scaling/tree/403b96ae13e89a6971db94b6d4e5cdc05db70747)
 on July 5, 2019.
 </em></small>
 
@@ -28,25 +27,13 @@ on July 5, 2019.
 
 
 
-+ **John Doe**<br>
++ **Andrei Berceanu**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0003-4438-4440](https://orcid.org/0000-0003-4438-4440)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [berceanu](https://github.com/berceanu)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Extreme Light Infrastructure - Nuclear Physics
   </small>
 
 
