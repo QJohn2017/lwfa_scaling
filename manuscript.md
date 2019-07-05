@@ -17,9 +17,9 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/1a1c2dc5c88231668342cb7c13cd0171c6324d92/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/1b8fc7c7eada3b8a369c6f0d9c92c4e2ae9965a1/))
 was automatically generated
-from [berceanu/lwfa_scaling@1a1c2dc](https://github.com/berceanu/lwfa_scaling/tree/1a1c2dc5c88231668342cb7c13cd0171c6324d92)
+from [berceanu/lwfa_scaling@1b8fc7c](https://github.com/berceanu/lwfa_scaling/tree/1b8fc7c7eada3b8a369c6f0d9c92c4e2ae9965a1)
 on July 5, 2019.
 </em></small>
 
@@ -48,9 +48,11 @@ apply the same analysis to the case of the envisioned GBS parameters.
 
 
 
-﻿## 1. CPLS parameters
+﻿
+## 1. CPLS parameters
 
 The Ti:Sapph CETAL-PW Laser System (CPLS) has a wavelength $\lambda_L = 800$ nanometers. The focal length of its off-axis parabolic mirror (OAP) is 3.2 meters, while the beam size is 200 millimeters. We can take the pulse duration to be $\tau_L = 40$ fs at FWHM in intensity. 
+
 ## 2. Electron acceleration estimate
 
 For optimal acceleration, we impose the condition that the dephasing length should be equal to the pump depletion length $L_{\text{dephasing}} = L_{\text{depletion}}$ [@pHOLg7Nh]. 
