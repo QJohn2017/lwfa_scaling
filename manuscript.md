@@ -17,9 +17,9 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/403b96ae13e89a6971db94b6d4e5cdc05db70747/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/f78f204bec2818027dfd9c30bd47dc189838dc20/))
 was automatically generated
-from [berceanu/lwfa_scaling@403b96a](https://github.com/berceanu/lwfa_scaling/tree/403b96ae13e89a6971db94b6d4e5cdc05db70747)
+from [berceanu/lwfa_scaling@f78f204](https://github.com/berceanu/lwfa_scaling/tree/f78f204bec2818027dfd9c30bd47dc189838dc20)
 on July 5, 2019.
 </em></small>
 
@@ -41,7 +41,11 @@ on July 5, 2019.
 ## Abstract {.page_break_before}
 
 
-
+We apply analytical scaling laws to the parameters of the CETAL laser system,
+in order to estimate the maximum obtainable electron energy and total charge in
+a laser-wakefield acceleration scenario. We also roughly predict the expected
+betatron radiation spectrum, emitted by the accelerated electrons. Finally, we
+apply the same analysis to the case of the envisioned GBS parameters.
 
 ﻿# CETAL calculation
 
