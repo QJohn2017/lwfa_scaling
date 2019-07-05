@@ -17,9 +17,9 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/1b8fc7c7eada3b8a369c6f0d9c92c4e2ae9965a1/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/1aa7906b6a7ddcbd4d3a81b4570ff1defb5c8338/))
 was automatically generated
-from [berceanu/lwfa_scaling@1b8fc7c](https://github.com/berceanu/lwfa_scaling/tree/1b8fc7c7eada3b8a369c6f0d9c92c4e2ae9965a1)
+from [berceanu/lwfa_scaling@1aa7906](https://github.com/berceanu/lwfa_scaling/tree/1aa7906b6a7ddcbd4d3a81b4570ff1defb5c8338)
 on July 5, 2019.
 </em></small>
 
@@ -47,9 +47,7 @@ betatron radiation spectrum, emitted by the accelerated electrons. Finally, we
 apply the same analysis to the case of the envisioned GBS parameters.
 
 
-
-﻿
-## 1. CPLS parameters
+﻿## 1. CPLS parameters
 
 The Ti:Sapph CETAL-PW Laser System (CPLS) has a wavelength $\lambda_L = 800$ nanometers. The focal length of its off-axis parabolic mirror (OAP) is 3.2 meters, while the beam size is 200 millimeters. We can take the pulse duration to be $\tau_L = 40$ fs at FWHM in intensity. 
 
