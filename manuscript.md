@@ -17,9 +17,9 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/04439e4317ec2a931bc56dc2475390cfcac856c2/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/c7fbbfab6f505d226476dfa56ba155ffda39242d/))
 was automatically generated
-from [berceanu/lwfa_scaling@04439e4](https://github.com/berceanu/lwfa_scaling/tree/04439e4317ec2a931bc56dc2475390cfcac856c2)
+from [berceanu/lwfa_scaling@c7fbbfa](https://github.com/berceanu/lwfa_scaling/tree/c7fbbfab6f505d226476dfa56ba155ffda39242d)
 on July 5, 2019.
 </em></small>
 
@@ -47,9 +47,7 @@ a laser-wakefield acceleration scenario. We also roughly predict the expected
 betatron radiation spectrum, emitted by the accelerated electrons. Finally, we
 apply the same analysis to the case of the envisioned GBS parameters.
 
-﻿# CETAL calculation
-
-## CPLS parameters
+﻿## CPLS parameters
 
 The Ti:Sapph CETAL-PW Laser System (CPLS) has a wavelength $\lambda_L = 800$ nanometers. The focal length of its off-axis parabolic mirror (OAP) is 3.2 meters, while the beam size is 200 millimeters. We can take the pulse duration to be $\tau_L = 40$ fs at FWHM in intensity. 
 
@@ -143,7 +141,6 @@ For CPLS we get $Q_e \approx 540 \, \text{pC} \approx 0.5$ nC and $N_e = 3.36 \t
 As a last note, with PW lasers, the higher laser energy can be focused to a larger focal spot matched by a lower plasma density.
 
 ### External guiding
-- [ ] adapt to CETAL parameters
 
 3J, $a_0 = 2$, $n_p = 5.1 \times 10^{17}$ cm${}^{-3}$, $w_0 = 21\, \mu\text{m}$, $\tau_L = 47\, \text{fs}$
 - needs external guiding (capilaries)
@@ -178,8 +175,6 @@ We now easily obtain $\theta_r = 8$ mrad and $N_{\gamma} = 0.8$ photons / (elect
 **Note:** The betatron amplitude $r_{\beta} \propto \sqrt{a_0/n_p}$ and the numer of betatron oscillations $N \propto 1/\sqrt{n_p}$.
 
 
-
-
 ## Quantum effects
 We are now ready to estimate the size of the quantum corrections. Quantum effects become important when the electron energy loss due to photon emission becomes comparable to the electron energy.
 
@@ -197,17 +192,6 @@ $$N_{\text{RR}} = 2.7 \times 10^7 \frac{\lambda_u [\mu\text{m}]}{\gamma K^2}$$
 
 so for CPLS parameters $N_{\text{RR}} \sim 2.9 \times 10^4 \gg N$.
 
-## Multiple stages
-- [ ] explain why people look at 2-stage solution 
-	- [ ] see slack chat with Igor
-
-## Computational resources
-- [ ] estimate computational resources for PIC based on these parameters
-	- [ ] PIConGPU Python memory calculator
-	- [ ] png collage
-
-
-# GBS calculation
 ## GBS parameters
 The Gamma Beam System (GBS) consists of a 0.1 TW, 0.4 J, 3.5 ps FWHM Yb:Yag laser system operating at its second harmonic $\lambda_L = 515$ nm (0.1%BW) and a linear electron accelerator (LINAC) of average current $0.75 \, \mu$A. The photons from the laser are scattered by electrons from the LINAC, which have a tunable energy in the range 80-720 MeV at 0.1%BW. The electrons come in trains which are 10 ms apart (100 Hz LINAC rep rate), and each train contains 32 bunches separated by 16 ns. The bunches have a charge $Q_e = 250$ pC and a length between 100 and 400 $\mu$m, while their focal spot size is 15 $\mu$m. By use of a recirculator, the same laser pulse can interact with all 32 electron bunches in a train before being dumped, resulting in an "effective" laser repetition rate of 3.2 kHz. At the interaction points, the laser beam waist is $w_0 = 28 \, \mu$m, resulting in $I_L = 8.7 \times 10^{15}$ W/cm${}^2$.[^1] For the following, we will consider the electrons to be at the maximum LINAC energy of 720 MeV, corresponding to a Lorentz factor $\gamma = 1409$. The other two important parameters are $a_0 = 0.04$ and $\lambda_L = 515$ nm. 
 
@@ -226,25 +210,14 @@ We now easily obtain $\theta_r = 700\, \mu$rad and $N_{\gamma} = 2.4 \times 10^{
 ## Quantum effects
 The Lorentz factor for 720 MeV electrons is $\gamma = 1409$, while $K = 0.05$ and $\lambda_u = 0.2575 \, \mu$m, therefore $N_{\text{RR}} = 2 \times 10^6$, compared to $N \sim 2 \times 10^3$ cycles/pulse. The nonlinear quantum parameter $\chi_0 = 4.3 \times 10^{-4}$.
 
-# TODO
-- [ ] send to Ong together with physical explanation for $\Delta \varepsilon$ vs $Q_e$ and $\Delta \varepsilon$ versus laser depletion
 
-
-- [ ] compute $r_{\beta}$ and $N$ from 15 J example by scaling and recompute all quantities that depend on them
+- compute $r_{\beta}$ and $N$ from 15 J example by scaling and recompute all quantities that depend on them
 
 ### Radiation spectrum
-- [ ] what does the betatron spectrum look like
-
-[brilliance](https://en.wikipedia.org/wiki/Synchrotron_light_source#Brilliance):  photons/(s mrad${}^2$ mm${}^2$ 0.1% BW) vs E[keV]
-spectral intensity: photons/0.1%BW vs E[keV]
 
 
 
 [^1]: The other parameters are: $k_L = 12.2$ $\mu$m${}^{-1}$, $\omega_L = 3.65$ fs${}^{-1}$, $E_L = 2.6 \times 10^{-3}$ TV/cm and Rayleigh length $z_R = 4.7$ mm.
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 
 
 ## References {.page_break_before}
