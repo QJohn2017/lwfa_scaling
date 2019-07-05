@@ -22,15 +22,14 @@
 <header id="title-block-header">
 <h1 class="title">Applycations of laser-wakefield scaling laws</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://berceanu.github.io/lwfa_scaling/v/04439e4317ec2a931bc56dc2475390cfcac856c2/">permalink</a>) was automatically generated from <a href="https://github.com/berceanu/lwfa_scaling/tree/04439e4317ec2a931bc56dc2475390cfcac856c2">berceanu/lwfa_scaling@04439e4</a> on July 5, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://berceanu.github.io/lwfa_scaling/v/c7fbbfab6f505d226476dfa56ba155ffda39242d/">permalink</a>) was automatically generated from <a href="https://github.com/berceanu/lwfa_scaling/tree/c7fbbfab6f505d226476dfa56ba155ffda39242d">berceanu/lwfa_scaling@c7fbbfa</a> on July 5, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Andrei Berceanu</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/0000-0003-4438-4440">0000-0003-4438-4440</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/berceanu">berceanu</a><br> <small> Extreme Light Infrastructure - Nuclear Physics </small></li>
 </ul>
 <h2 id="abstract" class="page_break_before">Abstract</h2>
 <p>We apply analytical scaling laws to the parameters of the CETAL laser system, in order to estimate the maximum obtainable electron energy and total charge in a laser-wakefield acceleration scenario. We also roughly predict the expected betatron radiation spectrum, emitted by the accelerated electrons. Finally, we apply the same analysis to the case of the envisioned GBS parameters.</p>
-<p>﻿# CETAL calculation</p>
-<h2 id="cpls-parameters">CPLS parameters</h2>
+<p>﻿## CPLS parameters</p>
 <p>The Ti:Sapph CETAL-PW Laser System (CPLS) has a wavelength <span class="math inline">\(\lambda_L = 800\)</span> nanometers. The focal length of its off-axis parabolic mirror (OAP) is 3.2 meters, while the beam size is 200 millimeters. We can take the pulse duration to be <span class="math inline">\(\tau_L = 40\)</span> fs at FWHM in intensity.</p>
 <h2 id="electron-acceleration-estimate">Electron acceleration estimate</h2>
 <p>For optimal acceleration, we impose the condition that the dephasing length should be equal to the pump depletion length <span class="math inline">\(L_{\text{dephasing}} = L_{\text{depletion}}\)</span>.</p>
@@ -78,10 +77,6 @@
 <p><span class="math display">\[Q_e [\text{pC}] = N_e \times e [\text{pC}] \approx 3.65  \frac{ (\tau_L [\text{fs}])^{4/3} }{ (\lambda_L [\mu\text{m}])^{1/3} } \]</span></p>
 <p>For CPLS we get <span class="math inline">\(Q_e \approx 540 \, \text{pC} \approx 0.5\)</span> nC and <span class="math inline">\(N_e = 3.36 \times 10^9\)</span> electrons. As a last note, with PW lasers, the higher laser energy can be focused to a larger focal spot matched by a lower plasma density.</p>
 <h3 id="external-guiding">External guiding</h3>
-<ul>
-<li><input type="checkbox" disabled="" />
-adapt to CETAL parameters</li>
-</ul>
 <p>3J, <span class="math inline">\(a_0 = 2\)</span>, <span class="math inline">\(n_p = 5.1 \times 10^{17}\)</span> cm<span class="math inline">\({}^{-3}\)</span>, <span class="math inline">\(w_0 = 21\, \mu\text{m}\)</span>, <span class="math inline">\(\tau_L = 47\, \text{fs}\)</span> - needs external guiding (capilaries) - needs external injection - can reach <span class="math inline">\(\Delta \varepsilon = 2.4\)</span> GeV after 52 mm of plasma</p>
 <h2 id="betatron-emission">Betatron emission</h2>
 <p>After matching the laser spot size, and pulse duration to the plasma density, we can look at betatron emission <span class="citation" data-cites="2hiGds1a">[<a href="#ref-2hiGds1a" role="doc-biblioref">1</a>]</span>. The betatron oscillation radius <span class="math inline">\(r_{\beta} = 3\, \mu\)</span>m for a blowout radius <span class="math inline">\(R = 21 \, \mu\)</span>m. Since the betatron oscillations are limited by the bubble size, it is reasonable to assume a linear dependence on <span class="math inline">\(R\)</span> and therefore take <span class="math inline">\(r_{\beta} = 2.6 \, \mu\)</span>m in our case.</p>
@@ -106,25 +101,6 @@ adapt to CETAL parameters</li>
 <p>The other way to estimate quantum effects is by following (Corde et al., 2013), which explains that radiation reaction can be neglected when the electron - laser interaction duration is much smaller than the electron energy loss rate, or equivalently, the number of oscillations <span class="math inline">\(N \ll N_{\text{RR}}\)</span>, with</p>
 <p><span class="math display">\[N_{\text{RR}} = 2.7 \times 10^7 \frac{\lambda_u [\mu\text{m}]}{\gamma K^2}\]</span></p>
 <p>so for CPLS parameters <span class="math inline">\(N_{\text{RR}} \sim 2.9 \times 10^4 \gg N\)</span>.</p>
-<h2 id="multiple-stages">Multiple stages</h2>
-<ul>
-<li><input type="checkbox" disabled="" />
-explain why people look at 2-stage solution<ul>
-<li><input type="checkbox" disabled="" />
-see slack chat with Igor</li>
-</ul></li>
-</ul>
-<h2 id="computational-resources">Computational resources</h2>
-<ul>
-<li><input type="checkbox" disabled="" />
-estimate computational resources for PIC based on these parameters<ul>
-<li><input type="checkbox" disabled="" />
-PIConGPU Python memory calculator</li>
-<li><input type="checkbox" disabled="" />
-png collage</li>
-</ul></li>
-</ul>
-<h1 id="gbs-calculation">GBS calculation</h1>
 <h2 id="gbs-parameters">GBS parameters</h2>
 <p>The Gamma Beam System (GBS) consists of a 0.1 TW, 0.4 J, 3.5 ps FWHM Yb:Yag laser system operating at its second harmonic <span class="math inline">\(\lambda_L = 515\)</span> nm (0.1%BW) and a linear electron accelerator (LINAC) of average current <span class="math inline">\(0.75 \, \mu\)</span>A. The photons from the laser are scattered by electrons from the LINAC, which have a tunable energy in the range 80-720 MeV at 0.1%BW. The electrons come in trains which are 10 ms apart (100 Hz LINAC rep rate), and each train contains 32 bunches separated by 16 ns. The bunches have a charge <span class="math inline">\(Q_e = 250\)</span> pC and a length between 100 and 400 <span class="math inline">\(\mu\)</span>m, while their focal spot size is 15 <span class="math inline">\(\mu\)</span>m. By use of a recirculator, the same laser pulse can interact with all 32 electron bunches in a train before being dumped, resulting in an “effective” laser repetition rate of 3.2 kHz. At the interaction points, the laser beam waist is <span class="math inline">\(w_0 = 28 \, \mu\)</span>m, resulting in <span class="math inline">\(I_L = 8.7 \times 10^{15}\)</span> W/cm<span class="math inline">\({}^2\)</span>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> For the following, we will consider the electrons to be at the maximum LINAC energy of 720 MeV, corresponding to a Lorentz factor <span class="math inline">\(\gamma = 1409\)</span>. The other two important parameters are <span class="math inline">\(a_0 = 0.04\)</span> and <span class="math inline">\(\lambda_L = 515\)</span> nm.</p>
 <h2 id="undulator-parameters">Undulator parameters</h2>
@@ -135,19 +111,10 @@ png collage</li>
 <p>We now easily obtain <span class="math inline">\(\theta_r = 700\, \mu\)</span>rad and <span class="math inline">\(N_{\gamma} = 2.4 \times 10^{-5}\)</span> photons / (electron x laser cycle). The total number of emitted photons per shot will be <span class="math inline">\(N_{\gamma}^{\text{shot}} = N_{\gamma} \times N_e \times N = 2.4 \times 10^{-5} \times 1.6 \times 10^9 \times 2 \times 10^3 = 7.7 \times 10^7\)</span> photons. Each laser pulse carries around <span class="math inline">\(10^{19}\)</span> 2.4 eV photons, of which only <span class="math inline">\(1.3 \times 10^6\)</span> will be back-scattered by each bunch to become <span class="math inline">\(\gamma\)</span> photons (arXiv:1407.3669, 2014). Finally, the fundamental radiation energy is in our case <span class="math inline">\(\hbar \omega = 19.1\)</span> MeV, versus the 19.5 MeV from the GBS specs.</p>
 <h2 id="quantum-effects-1">Quantum effects</h2>
 <p>The Lorentz factor for 720 MeV electrons is <span class="math inline">\(\gamma = 1409\)</span>, while <span class="math inline">\(K = 0.05\)</span> and <span class="math inline">\(\lambda_u = 0.2575 \, \mu\)</span>m, therefore <span class="math inline">\(N_{\text{RR}} = 2 \times 10^6\)</span>, compared to <span class="math inline">\(N \sim 2 \times 10^3\)</span> cycles/pulse. The nonlinear quantum parameter <span class="math inline">\(\chi_0 = 4.3 \times 10^{-4}\)</span>.</p>
-<h1 id="todo">TODO</h1>
 <ul>
-<li><p><input type="checkbox" disabled="" />
-send to Ong together with physical explanation for <span class="math inline">\(\Delta \varepsilon\)</span> vs <span class="math inline">\(Q_e\)</span> and <span class="math inline">\(\Delta \varepsilon\)</span> versus laser depletion</p></li>
-<li><p><input type="checkbox" disabled="" />
-compute <span class="math inline">\(r_{\beta}\)</span> and <span class="math inline">\(N\)</span> from 15 J example by scaling and recompute all quantities that depend on them</p></li>
+<li>compute <span class="math inline">\(r_{\beta}\)</span> and <span class="math inline">\(N\)</span> from 15 J example by scaling and recompute all quantities that depend on them</li>
 </ul>
 <h3 id="radiation-spectrum">Radiation spectrum</h3>
-<ul>
-<li><input type="checkbox" disabled="" />
-what does the betatron spectrum look like</li>
-</ul>
-<p><a href="https://en.wikipedia.org/wiki/Synchrotron_light_source#Brilliance">brilliance</a>: photons/(s mrad<span class="math inline">\({}^2\)</span> mm<span class="math inline">\({}^2\)</span> 0.1% BW) vs E[keV] spectral intensity: photons/0.1%BW vs E[keV]</p>
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
