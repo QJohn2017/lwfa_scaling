@@ -17,9 +17,9 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/3d3d4674ab0592c7176b06f616a4f33ac3066022/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/22378bd86a226da604776f96cd57a914c93aab54/))
 was automatically generated
-from [berceanu/lwfa_scaling@3d3d467](https://github.com/berceanu/lwfa_scaling/tree/3d3d4674ab0592c7176b06f616a4f33ac3066022)
+from [berceanu/lwfa_scaling@22378bd](https://github.com/berceanu/lwfa_scaling/tree/22378bd86a226da604776f96cd57a914c93aab54)
 on July 5, 2019.
 </em></small>
 
@@ -40,12 +40,13 @@ on July 5, 2019.
 
 ## Abstract {.page_break_before}
 
-
 We apply analytical scaling laws to the parameters of the CETAL laser system,
 in order to estimate the maximum obtainable electron energy and total charge in
 a laser-wakefield acceleration scenario. We also roughly predict the expected
 betatron radiation spectrum, emitted by the accelerated electrons. Finally, we
 apply the same analysis to the case of the envisioned GBS parameters.
+
+
 
 ﻿## 1. CPLS parameters
 
@@ -88,7 +89,7 @@ We also need to match the beam waist $w_0$ of the focused Gaussian laser pulse t
 
 $$w_0 [\mu \text{m}] = 1.06 \times 10^{10}   \left(\frac{a_0}{n_p [\text{cm}^{-3}]}\right)^{1/2} = 44.84  \frac{\tau_L [\text{fs}]}{100}$$
 
-For CPLS, we get $w_0 \approx 18 \mu \text{m}$ at $1/e^2$ intensity, so FWHM (1/2 intensity) = $w_0 \sqrt{2 \ln{2}} \approx 21 \mu$m. The realistic value, according to Liviu, is $25 \mu \text{m}$ and the diffraction-limited value according to *CALCTOOL* is $16 \mu \text{m}$.
+For CPLS, we get $w_0 \approx 18 \mu \text{m}$ at $1/e^2$ intensity, so FWHM (1/2 intensity) = $w_0 \sqrt{2 \ln{2}} \approx 21 \mu$m. The realistic value, is $25 \mu \text{m}$ and the diffraction-limited value according to *CALCTOOL* is $16 \mu \text{m}$.
 
 ### Laser energy, power and intensity 
 
