@@ -17,9 +17,9 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/e7b161951ee671c85dc0def95b1f63392cea8c4c/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/54e50dcff8f932c31bbc07579ff54864342ef94b/))
 was automatically generated
-from [berceanu/lwfa_scaling@e7b1619](https://github.com/berceanu/lwfa_scaling/tree/e7b161951ee671c85dc0def95b1f63392cea8c4c)
+from [berceanu/lwfa_scaling@54e50dc](https://github.com/berceanu/lwfa_scaling/tree/54e50dcff8f932c31bbc07579ff54864342ef94b)
 on July 12, 2019.
 </em></small>
 
@@ -80,7 +80,7 @@ and
 
 $$n_p [\text{cm}^{-3}] = 6.29 \times 10^{20} \frac{1}{(\lambda_L [\mu\text{m}])^{1/3} (\tau_L [\text{fs}])^{5/3}}$$
 
-For FLAME parameters, we get $a_0 \approx 3.7$ and $n_p \approx 2.3 \times 10^{18} \text{cm}^{-3} = 13 \times 10^{-4} n_c$. For $a_0 \geq 4-5$ we also get self-injection from pure Helium. Helium has the ionization energies 24.59 eV (He${}^{+}$) and 54.42 (He${}^{2+}$), corresponding to laser intensities $1.4 \times 10^{15}$, respectively $8.8 \times 10^{15}$ W/cm${}^2$ (Gibbon, "Short pulse laser interactions with matter", p. 22), and will therefore be easily ionized by the laser prepulse.
+For FLAME parameters, we get $a_0 \approx 3.7$ and $n_p \approx 2.3 \times 10^{18} \text{cm}^{-3} = 13 \times 10^{-4} n_c$. For $a_0 \geq 4-5$ we also get self-injection from pure Helium. Helium has the ionization energies 24.59 eV (He${}^{+}$) and 54.42 (He${}^{2+}$), corresponding to laser intensities $1.4 \times 10^{15}$, respectively $8.8 \times 10^{15}$ W/cm${}^2$ [@XIzWHcCi], and will therefore be easily ionized by the laser prepulse.
 Knowing the density, we get $\omega_p = 8.63 \times 10^{-2}$ fs${}^{-1}$, and more importantly, $\omega_p^{-1} = 11.59$ fs, which is the same order of magnitude as the pulse duration $\tau_L = 30$ fs. For $\tau_L \gg \omega_p^{-1}$ (eg. $\tau_L = 600$ fs), one would either be in the SMLWFA or DLA regime, depending on the value of $a_0$.
 
 ### Beam waist
@@ -201,9 +201,6 @@ $$N_{\text{RR}} = 2.7 \times 10^7 \frac{\lambda_u [\mu\text{m}]}{\gamma K^2}$$
 
 so for FLAME** parameters $N_{\text{RR}} \sim 2.8 \times 10^4 \gg N$.
 
-
-
-[^1]: The other parameters are: $k_L = 12.2$ $\mu$m${}^{-1}$, $\omega_L = 3.65$ fs${}^{-1}$, $E_L = 2.6 \times 10^{-3}$ TV/cm and Rayleigh length $z_R = 4.7$ mm.
 
 
 
