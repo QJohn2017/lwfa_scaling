@@ -17,9 +17,9 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/097a1fb9e6aad59a916b1f4c98fca2178096b2c2/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/e7b161951ee671c85dc0def95b1f63392cea8c4c/))
 was automatically generated
-from [berceanu/lwfa_scaling@097a1fb](https://github.com/berceanu/lwfa_scaling/tree/097a1fb9e6aad59a916b1f4c98fca2178096b2c2)
+from [berceanu/lwfa_scaling@e7b1619](https://github.com/berceanu/lwfa_scaling/tree/e7b161951ee671c85dc0def95b1f63392cea8c4c)
 on July 12, 2019.
 </em></small>
 
