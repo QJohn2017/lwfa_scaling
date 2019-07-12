@@ -13,19 +13,36 @@
       "affiliation_numbers": [
         1
       ]
+    },
+    {
+      "github": "aled121",
+      "name": "Alessio Del Dotto",
+      "initials": "ADD",
+      "orcid": "0000-0002-1756-5089",
+      "email": "alessiodeldott@gmail.com",
+      "affiliations": [
+        "Instituto Nazionale di Fisica Nucleare"
+      ],
+      "affiliation_numbers": [
+        2
+      ]
     }
   ],
   "affiliations": [
     {
       "affiliation": "Extreme Light Infrastructure - Nuclear Physics",
       "affiliation_number": 1
+    },
+    {
+      "affiliation": "Instituto Nazionale di Fisica Nucleare",
+      "affiliation_number": 2
     }
   ],
   "ci_source": {
     "repo_slug": "berceanu/lwfa_scaling",
     "repo_owner": "berceanu",
     "repo_name": "lwfa_scaling",
-    "commit": "54e50dcff8f932c31bbc07579ff54864342ef94b"
+    "commit": "89dbd68bf551b16c069a4d9afc2c4c3795aa06f1"
   },
   "manuscript_stats": {
     "reference_counts": {
