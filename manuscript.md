@@ -2,7 +2,7 @@
 author-meta:
 - Andrei Berceanu
 - Alessio Del Dotto
-date-meta: '2019-07-12'
+date-meta: '2019-07-16'
 keywords:
 - lwfa
 - laser
@@ -18,10 +18,10 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/278f80d56b6bc1488be4ab1d3b2892622b593ae2/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/2a31b68aaa76836f0b88a59d44a4ffdb61636559/))
 was automatically generated
-from [berceanu/lwfa_scaling@278f80d](https://github.com/berceanu/lwfa_scaling/tree/278f80d56b6bc1488be4ab1d3b2892622b593ae2)
-on July 12, 2019.
+from [berceanu/lwfa_scaling@2a31b68](https://github.com/berceanu/lwfa_scaling/tree/2a31b68aaa76836f0b88a59d44a4ffdb61636559)
+on July 16, 2019.
 </em></small>
 
 ## Authors
