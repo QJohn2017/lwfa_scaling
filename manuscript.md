@@ -18,9 +18,9 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/4daaeed7ea7d2ca3476ce9fb0411b07d8c0961b5/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/89b712112e7455e0f58f4a6f6ca31a9c0c36f011/))
 was automatically generated
-from [berceanu/lwfa_scaling@4daaeed](https://github.com/berceanu/lwfa_scaling/tree/4daaeed7ea7d2ca3476ce9fb0411b07d8c0961b5)
+from [berceanu/lwfa_scaling@89b7121](https://github.com/berceanu/lwfa_scaling/tree/89b712112e7455e0f58f4a6f6ca31a9c0c36f011)
 on July 16, 2019.
 </em></small>
 
@@ -59,10 +59,16 @@ betatron radiation spectrum, emitted by the accelerated electrons.
 ## 1. FLAME parameters
 
 The FLAME Laser System (FLAME) has a wavelength $\lambda_L = 800$ nanometers.
-The laser operating pulse energy can range from 0.03 J up to 3 J,
-the pulse duration can range from 30 fs up to 300 fs.
-The beam waist is $30 \mu m$.
-We can take the minimum pulse duration to be $\tau_L = 30$ fs at FWHM in intensity.
+The operating laser pulse energy can range from 0.03 J up to 3 J on target.^[In
+the latest experimental campaign, the aim is to use 3 J.]
+Inside the laser focus, the energy is roughly 40% of that.
+The pulse duration can range from 28 fs up to a maximum of 300 fs.
+The beam waist is $w_0 = 15 \mu m$.
+We can take the pulse duration to be $\tau_L = 30$ fs at FWHM in intensity.
+
+When using a gas-jet target, available plasma density range is between 1 and 5
+$\times 10^{18}$ cm${}^{-3}$, correspoding to an acceleration length between 5
+and 1 mm.
 
 ## 2. Electron acceleration estimate
 
