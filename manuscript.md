@@ -18,9 +18,9 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/2a31b68aaa76836f0b88a59d44a4ffdb61636559/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/1ec2360b2b028e31e7e8bb643b8c633b714b4c39/))
 was automatically generated
-from [berceanu/lwfa_scaling@2a31b68](https://github.com/berceanu/lwfa_scaling/tree/2a31b68aaa76836f0b88a59d44a4ffdb61636559)
+from [berceanu/lwfa_scaling@1ec2360](https://github.com/berceanu/lwfa_scaling/tree/1ec2360b2b028e31e7e8bb643b8c633b714b4c39)
 on July 16, 2019.
 </em></small>
 
@@ -59,7 +59,7 @@ betatron radiation spectrum, emitted by the accelerated electrons.
 ## 1. FLAME parameters
 
 The FLAME Laser System (FLAME) has a wavelength $\lambda_L = 800$ nanometers.
-The laser operating pulse energy can ramge from 0.03 J up to 3 J,
+The laser operating pulse energy can range from 0.03 J up to 3 J,
 the pulse duration can range from 30 fs up to 300 fs.
 The spot at waist is of $30 \mu m$.
 We can take the minimum pulse duration to be $\tau_L = 30$ fs at FWHM in intensity.
