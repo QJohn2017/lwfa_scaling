@@ -18,9 +18,9 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/5e10cba61652e0c42e491b60561e79d9ce3aab29/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/72866cb10801c8a6d52f080b315436cd9d98a8ae/))
 was automatically generated
-from [berceanu/lwfa_scaling@5e10cba](https://github.com/berceanu/lwfa_scaling/tree/5e10cba61652e0c42e491b60561e79d9ce3aab29)
+from [berceanu/lwfa_scaling@72866cb](https://github.com/berceanu/lwfa_scaling/tree/72866cb10801c8a6d52f080b315436cd9d98a8ae)
 on July 22, 2019.
 </em></small>
 
@@ -63,7 +63,7 @@ The operating laser pulse energy can range from 0.03 J up to 3 J on target.^[In
 the latest experimental campaign, the aim is to use 3 J.]
 Inside the laser focus, the energy is roughly 40% of that.
 The pulse duration can range from 28 fs up to a maximum of 300 fs.
-The beam waist is $w_0 = 15 \mu m$.
+The beam waist is $w_0 = 15\, \mu$m.
 We can take the pulse duration to be $\tau_L = 30$ fs at FWHM in intensity.
 
 When using a gas-jet target, available plasma density range is between 1 and 5
