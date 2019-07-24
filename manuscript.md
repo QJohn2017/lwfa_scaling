@@ -18,9 +18,9 @@ title: Application of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/f889afc0cf8f23e2962ab23fca8112e0cf9b5f79/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/fdc9909489f8e25a1e6fd50c98f410b9ef74e758/))
 was automatically generated
-from [berceanu/lwfa_scaling@f889afc](https://github.com/berceanu/lwfa_scaling/tree/f889afc0cf8f23e2962ab23fca8112e0cf9b5f79)
+from [berceanu/lwfa_scaling@fdc9909](https://github.com/berceanu/lwfa_scaling/tree/fdc9909489f8e25a1e6fd50c98f410b9ef74e758)
 on July 24, 2019.
 </em></small>
 
@@ -137,9 +137,11 @@ The peak laser intensity in the focal plane is
 $$I_L [10^{18} \text{W}/\text{cm}^2 ] \approx 6 \times 10^4  \frac{\varepsilon_L [\text{J}]}{\tau_L [\text{fs}] (w_0 [\mu \text{m}])^2}$$
 
 so for our parameters $I_L \approx 2.96 \times 10^{19}$ W/cm${}^2$.
-For a relative scale, the atomic Coulomb field is on the order of $10^{14}$ W/cm${}^2$
+
+For a **relative scale**, the atomic Coulomb field is on the order of $10^{14}$ W/cm${}^2$
 and relativistic effects become important for laser intensities above $10^{17}$ W/cm${}^2$ ($a_0 \geq 1$),
-while QED effects such as radiation reaction only become important for intensities beyond $\sim 2 \times 10^{21}$ W/cm${}^2$.
+while QED effects such as **radiation reaction** only become important for intensities beyond $\sim 2 \times 10^{21}$ W/cm${}^2$.
+
 We know that $a_0 = 0.855 \lambda_L [\mu\text{m}] (I_L [10^{18} \text{W}/\text{cm}^2 ])^{1/2}$, so
 
 $$\varepsilon_L [\text{J}] = 2.28 \times 10^{-5} a_0^2 (w_0 [\mu \text{m}])^2 \frac{\tau_L [\text{fs}] }{(\lambda_L [\mu\text{m}])^2} = 5.68 \times 10^{-6} \frac{ (\tau_L [\text{fs}])^{11/3} }{(\lambda_L [\mu\text{m}])^{8/3}}$$
