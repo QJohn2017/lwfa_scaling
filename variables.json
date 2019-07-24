@@ -42,13 +42,13 @@
     "repo_slug": "berceanu/lwfa_scaling",
     "repo_owner": "berceanu",
     "repo_name": "lwfa_scaling",
-    "commit": "7257b92a8eaf09a1a615700087d094ac61f0c770"
+    "commit": "ec1fb60bdf694002c988b3951dfb9690d7acb9da"
   },
   "manuscript_stats": {
     "reference_counts": {
-      "doi": 4,
-      "total": 4
+      "doi": 3,
+      "total": 3
     },
-    "word_count": 1866
+    "word_count": 1690
   }
 }

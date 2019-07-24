@@ -18,9 +18,9 @@ title: Application of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/7257b92a8eaf09a1a615700087d094ac61f0c770/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/ec1fb60bdf694002c988b3951dfb9690d7acb9da/))
 was automatically generated
-from [berceanu/lwfa_scaling@7257b92](https://github.com/berceanu/lwfa_scaling/tree/7257b92a8eaf09a1a615700087d094ac61f0c770)
+from [berceanu/lwfa_scaling@ec1fb60](https://github.com/berceanu/lwfa_scaling/tree/ec1fb60bdf694002c988b3951dfb9690d7acb9da)
 on July 24, 2019.
 </em></small>
 
@@ -239,30 +239,9 @@ Finally, the critical energy is in our case $\hbar \omega_c = 128$ keV.
 We are now ready to estimate the size of the quantum corrections.
 Quantum effects become important when the electron energy loss due to photon emission becomes comparable to the electron energy.
 
-### Nonlinear quantum parameter
-
-We first look at the so-called nonlinear quantum parameter $\chi_0$ [@14eWc0Jyb]
-for the case of an ultrarelativistic electron counter-propagating with respect to a plane wave:
-
-$$\chi_0 = 5.9 \times 10^{-3} \Delta \varepsilon [\text{GeV}]  (I_L [10^{18} \text{W}/\text{cm}^2] )^{1/2}$$
-
-giving $\chi_0 \approx 3 \times 10^{-2}$.
-$\chi_0$ can be interpreted as the aplitude of the plane wave's electric field
-in the electron rest frame (in units of the critical QED field $m^2/e = 1.3 \times 10^{16}$ V/cm $= 1.3 \times 10^6$ TV/m)
-and controld quantum effects such as photon recoil and spin.
-Since $\chi_0 \ll 1$, these effects play a minor role here.
-In fact our electric field is just $E_L [\text{TV/m}] = 3.21 a_0 / \lambda_L [\mu\text{m}] = 0.151$ TV/cm.
-Inside the plasma, the maximum accelerating field achievable at a given plasma density
-is $\approx a_0^{1/2}E_0$ (for $a_0 \geq 2$),
-where $E_0$ is the cold non-relativistic wave-breaking field,
-$E_0 [\text{V/cm}] \approx 0.96 (n_p [\text{cm}^{-3}])^{1/2}$.
-In our case $a_0^{1/2}E_0 = 2.84 \times 10^9$ V/cm.
-
-### Interaction duration
-
-The other way to estimate quantum effects is [@2hiGds1a]:
-radiation reaction can be neglected when the electron - laser interaction duration is much smaller than the electron energy loss rate,
- or equivalently, the number of oscillations $N \ll N_{\text{RR}}$, with
+Radiation reaction can be neglected when the electron - laser interaction duration is much smaller
+than the electron energy loss rate, or equivalently,
+the number of oscillations $N \ll N_{\text{RR}}$, with [@2hiGds1a]
 
 $$N_{\text{RR}} = 2.7 \times 10^7 \frac{\lambda_u [\mu\text{m}]}{\gamma K^2}$$
 
