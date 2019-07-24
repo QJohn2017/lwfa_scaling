@@ -4,7 +4,7 @@
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://berceanu.github.io/lwfa_scaling/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://berceanu.github.io/lwfa_scaling/manuscript.pdf)
-[![Build Status](https://travis-ci.org/berceanu/lwfa_scaling.svg?branch=master)](https://travis-ci.com/berceanu/lwfa_scaling)
+[![Build Status](https://travis-ci.org/berceanu/lwfa_scaling.svg?branch=master)](https://travis-ci.org/berceanu/lwfa_scaling)
 
 ## Manuscript description
 
