@@ -18,9 +18,9 @@ title: Application of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/9e55e30100ea5c0a89f676d56b112b26d7efa414/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/f889afc0cf8f23e2962ab23fca8112e0cf9b5f79/))
 was automatically generated
-from [berceanu/lwfa_scaling@9e55e30](https://github.com/berceanu/lwfa_scaling/tree/9e55e30100ea5c0a89f676d56b112b26d7efa414)
+from [berceanu/lwfa_scaling@f889afc](https://github.com/berceanu/lwfa_scaling/tree/f889afc0cf8f23e2962ab23fca8112e0cf9b5f79)
 on July 24, 2019.
 </em></small>
 
@@ -111,7 +111,7 @@ For FLAME parameters, we get $a_0 \approx 3.7$ and $n_p \approx 2.3 \times 10^{1
 
 For $a_0 \geq 4-5$ we also get **self-injection** from pure Helium.
 
-Helium has the **ionization** energies 24.59 eV (He${}^{+}$) and 54.42 (He${}^{2+}$),
+Helium has the **ionization** energies 24.59 eV (He${}^{+}$) and 54.42 eV (He${}^{2+}$),
 corresponding to laser intensities $1.4 \times 10^{15}$, respectively $8.8 \times 10^{15}$ W/cm${}^2$ [@XIzWHcCi],
 and will therefore be easily ionized by the laser prepulse.
 
