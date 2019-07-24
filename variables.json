@@ -1,5 +1,5 @@
 {
-  "date": "July 22, 2019",
+  "date": "July 24, 2019",
   "authors": [
     {
       "github": "berceanu",
@@ -42,13 +42,13 @@
     "repo_slug": "berceanu/lwfa_scaling",
     "repo_owner": "berceanu",
     "repo_name": "lwfa_scaling",
-    "commit": "72866cb10801c8a6d52f080b315436cd9d98a8ae"
+    "commit": "7257b92a8eaf09a1a615700087d094ac61f0c770"
   },
   "manuscript_stats": {
     "reference_counts": {
       "doi": 4,
       "total": 4
     },
-    "word_count": 1909
+    "word_count": 1866
   }
 }

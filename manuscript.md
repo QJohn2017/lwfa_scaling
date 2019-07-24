@@ -2,13 +2,13 @@
 author-meta:
 - Andrei Berceanu
 - Alessio Del Dotto
-date-meta: '2019-07-22'
+date-meta: '2019-07-24'
 keywords:
 - lwfa
 - laser
 - plasma
 lang: en-US
-title: Applycations of laser-wakefield scaling laws
+title: Application of laser-wakefield scaling laws
 ...
 
 
@@ -18,10 +18,10 @@ title: Applycations of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/72866cb10801c8a6d52f080b315436cd9d98a8ae/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/7257b92a8eaf09a1a615700087d094ac61f0c770/))
 was automatically generated
-from [berceanu/lwfa_scaling@72866cb](https://github.com/berceanu/lwfa_scaling/tree/72866cb10801c8a6d52f080b315436cd9d98a8ae)
-on July 22, 2019.
+from [berceanu/lwfa_scaling@7257b92](https://github.com/berceanu/lwfa_scaling/tree/7257b92a8eaf09a1a615700087d094ac61f0c770)
+on July 24, 2019.
 </em></small>
 
 ## Authors
@@ -182,14 +182,6 @@ $$Q_e [\text{pC}] = N_e \times e [\text{pC}] \approx 3.65  \frac{ (\tau_L [\text
 
 For FLAME we get $Q_e \approx 366 \, \text{pC} \approx 0.36$ nC and $N_e = 2.29 \times 10^9$ electrons.
 As a last note, with PW lasers, the higher laser energy can be focused to a larger focal spot matched by a lower plasma density.
-
-### External guiding
-
-3J, $a_0 = 2$, $n_p = 5.1 \times 10^{17}$ cm${}^{-3}$, $w_0 = 21\, \mu\text{m}$, $\tau_L = 47\, \text{fs}$
-
-- needs external guiding (capilaries)
-- needs external injection
-- can reach $\Delta \varepsilon = 2.4$ GeV after 52 mm of plasma
 
 ## 3. Betatron emission
 
