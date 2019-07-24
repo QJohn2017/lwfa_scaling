@@ -18,9 +18,9 @@ title: Application of laser-wakefield scaling laws
 
 <small><em>
 This manuscript
-([permalink](https://berceanu.github.io/lwfa_scaling/v/ec1fb60bdf694002c988b3951dfb9690d7acb9da/))
+([permalink](https://berceanu.github.io/lwfa_scaling/v/9e55e30100ea5c0a89f676d56b112b26d7efa414/))
 was automatically generated
-from [berceanu/lwfa_scaling@ec1fb60](https://github.com/berceanu/lwfa_scaling/tree/ec1fb60bdf694002c988b3951dfb9690d7acb9da)
+from [berceanu/lwfa_scaling@9e55e30](https://github.com/berceanu/lwfa_scaling/tree/9e55e30100ea5c0a89f676d56b112b26d7efa414)
 on July 24, 2019.
 </em></small>
 
@@ -107,14 +107,18 @@ and
 $$n_p [\text{cm}^{-3}] = 6.29 \times 10^{20} \frac{1}{(\lambda_L [\mu\text{m}])^{1/3} (\tau_L [\text{fs}])^{5/3}}$$
 
 For FLAME parameters, we get $a_0 \approx 3.7$ and $n_p \approx 2.3 \times 10^{18} \text{cm}^{-3} = 13 \times 10^{-4} n_c$.
-For $a_0 \geq 4-5$ we also get self-injection from pure Helium.
-Helium has the ionization energies 24.59 eV (He${}^{+}$) and 54.42 (He${}^{2+}$),
+
+
+For $a_0 \geq 4-5$ we also get **self-injection** from pure Helium.
+
+Helium has the **ionization** energies 24.59 eV (He${}^{+}$) and 54.42 (He${}^{2+}$),
 corresponding to laser intensities $1.4 \times 10^{15}$, respectively $8.8 \times 10^{15}$ W/cm${}^2$ [@XIzWHcCi],
 and will therefore be easily ionized by the laser prepulse.
+
 Knowing the density, we get $\omega_p = 8.63 \times 10^{-2}$ fs${}^{-1}$,
 and more importantly, $\omega_p^{-1} = 11.59$ fs,
 which is the same order of magnitude as the pulse duration $\tau_L = 30$ fs.
-For $\tau_L \gg \omega_p^{-1}$ (eg. $\tau_L = 600$ fs), one would either be in the SMLWFA or DLA regime,
+For $\tau_L \gg \omega_p^{-1}$ (eg. $\tau_L = 600$ fs), one would either be in the **SMLWFA** or **DLA regime**,
 depending on the value of $a_0$.
 
 ### Beam waist
